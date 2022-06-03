@@ -1,0 +1,159 @@
+.item1 { grid-area: header; }
+.item2 { grid-area: menu; }
+.item3 { grid-area: main; }
+.item4 { grid-area: right; }
+.item5 { grid-area: footer; }
+
+
+.fa {  
+  padding: 20px;  
+text-align: center;  
+  margin: 5px 2px;  
+  font-size: 30px;  
+  width: 50px;  
+}  
+.fa-facebook {  
+  background: #3B5998;  
+  color: white;  
+}  
+.fa-twitter {  
+  background: #55ACEE;  
+  color: white;  
+}  
+.fa-pinterest {  
+  background: #cb2027;  
+  color: white;  
+}  
+.fa-linkedin {  
+  background: #007bb5;  
+  color: white;  
+}  
+.fa-instagram {  
+  background: #125688;  
+  color: white;  
+}  
+.fa-youtube {  
+  background: #bb0000;  
+  color: white;  
+}  
+.fa-google {  
+  background: #dd4b39;  
+  color: white;  
+}  
+.fa-snapchat-ghost {  
+  background: #fffc00;  
+  color: white;  
+  text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;  
+}  
+.fa-skype {  
+  background: #00aff0;  
+  color: white;  
+}  
+.fa:hover {  
+    opacity: 0.9;  
+}  
+
+
+body{
+	background:linear-gradient(to left,yellow,pink);
+  overflow-x: hidden; 
+}
+
+.grid-container {
+  display: grid;
+  grid-template-areas:
+    'header header header header header header'
+    'menu main main main right right'
+    'footer footer footer footer footer footer';
+  gap: 10px;
+  padding: 10px;
+}
+
+.grid-container > div {
+  padding: 20px 0;
+  font-size: 30px;
+}
+
+ul {
+    list-style-type:none;
+  }
+
+  li{
+      float: left;
+      padding :10px;
+  }
+
+  .primary
+  {
+      padding-left: 250px;
+      text-align: center;   
+  }
+
+  .place{
+    border: 10px solid blue;
+    margin-left: 250px;
+  }
+
+  .placeholder
+  {
+      text-align: center;
+  }
+
+.logo
+{
+    
+    width: 150px;
+    text-align: center;
+    
+}
+
+.p1,.p2,.p3,.p4
+{
+    border: 5px solid black;
+    margin-left: 10px;
+    background-color: yellow;
+    
+}
+
+.sr{
+    float: none;
+    border: 5px solid rgb(6, 5, 5);
+    height: 100px;
+    margin-right: 23px;
+    margin-top: 12px;
+    text-align: center;
+    text-transform: uppercase;
+    padding-top: 70px;
+    background-color: rgb(189, 63, 63);
+
+}
+
+.s{
+ padding-right: 150px;
+ 
+}
+
+.f,.t,.e
+{
+        float: none;
+        list-style-type: disc;
+}
+
+.share{
+    
+    margin-top: 12px;
+}
+
+.r1,.r2
+{
+    float: none;    
+}
+
+.item5{
+    margin-left: 300px;
+}
+
+.item2{
+  background-color: grey;
+}
+
